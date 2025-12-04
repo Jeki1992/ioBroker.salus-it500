@@ -1,0 +1,8 @@
+{
+	"salus-it500 adapter settings": "Налаштування адаптера Salus IT500",
+	"Salus IT500 Adapter Configuration": "Конфігурація адаптера Salus IT500",
+	"Username/Email": "Ім'я користувача/Email",
+	"Password": "Пароль",
+	"Poll interval (seconds)": "Інтервал опитування (секунди)",
+	"How often to update device data (minimum 30 seconds)": "Як часто оновлювати дані пристрою (мінімум 30 секунд)"
+}

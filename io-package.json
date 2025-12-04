@@ -1,0 +1,97 @@
+{
+	"common": {
+		"name": "salus-it500",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"uk": "Початкова версія",
+				"zh-cn": "首次出版"
+			}
+		},
+		"titleLang": {
+			"en": "Salus IT500 Thermostat",
+			"de": "Salus IT500 Thermostat",
+			"ru": "Термостат Salus IT500",
+			"pt": "Termostato Salus IT500",
+			"nl": "Salus IT500 Thermostaat",
+			"fr": "Thermostat Salus IT500",
+			"it": "Termostato Salus IT500",
+			"es": "Termostato Salus IT500",
+			"pl": "Termostat Salus IT500",
+			"uk": "Термостат Salus IT500",
+			"zh-cn": "Salus IT500 恒温器"
+		},
+		"desc": {
+			"en": "Control and monitor Salus IT500 thermostat",
+			"de": "Salus IT500 Thermostat steuern und überwachen",
+			"ru": "Управление и мониторинг термостата Salus IT500",
+			"pt": "Controle e monitore o termostato Salus IT500",
+			"nl": "Salus IT500 thermostaat bedienen en monitoren",
+			"fr": "Contrôler et surveiller le thermostat Salus IT500",
+			"it": "Controllare e monitorare il termostato Salus IT500",
+			"es": "Controlar y monitorear el termostato Salus IT500",
+			"pl": "Sterowanie i monitorowanie termostatu Salus IT500",
+			"uk": "Управління та моніторинг термостату Salus IT500",
+			"zh-cn": "控制和监控 Salus IT500 恒温器"
+		},
+		"authors": [
+			"Alex <o.zaiets@ukr.net>"
+		],
+		"keywords": [
+			"salus",
+			"it500",
+			"thermostat",
+			"heating",
+			"climate-control"
+		],
+		"licenseInformation": {
+			"type": "free",
+			"license": "MIT"
+		},
+		"platform": "Javascript/Node.js",
+		"icon": "salus-it500.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/Jeki1992/ioBroker.salus-it500/main/admin/salus-it500.png",
+		"readme": "https://github.com/Jeki1992/ioBroker.salus-it500/blob/main/README.md",
+		"loglevel": "info",
+		"tier": 3,
+		"restartAdapters": [
+			"vis"
+		],
+		"mode": "daemon",
+		"type": "climate-control",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "poll",
+		"adminUI": {
+			"config": "json"
+		},
+		"dependencies": [
+			{
+				"js-controller": ">=6.0.11"
+			},
+			"vis"
+		],
+		"globalDependencies": [
+			{
+				"admin": ">=7.0.23"
+			}
+		]
+	},
+	"native": {
+		"username": "",
+		"password": "",
+		"pollInterval": 60
+	},
+	"objects": [],
+	"instanceObjects": []
+}

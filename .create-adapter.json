@@ -1,0 +1,39 @@
+{
+	"cli": true,
+	"target": "directory",
+	"adapterName": "salus-it500",
+	"title": "salus-it500",
+	"expert": "no",
+	"features": [
+		"adapter",
+		"vis"
+	],
+	"adminFeatures": [],
+	"type": "climate-control",
+	"widgetIsMainFunction": "main",
+	"startMode": "daemon",
+	"connectionType": "cloud",
+	"dataSource": "poll",
+	"connectionIndicator": "no",
+	"language": "JavaScript",
+	"nodeVersion": "20",
+	"adminUi": "json",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"eslintConfig": "official",
+	"releaseScript": "yes",
+	"devServer": "local",
+	"indentation": "Tab",
+	"quotes": "single",
+	"authorName": "Alex",
+	"authorGithub": "Jeki1992",
+	"authorEmail": "o.zaiets@ukr.net",
+	"gitRemoteProtocol": "HTTPS",
+	"gitCommit": "no",
+	"defaultBranch": "main",
+	"license": "MIT License",
+	"dependabot": "yes",
+	"creatorVersion": "3.1.2"
+}

@@ -1,0 +1,45 @@
+{
+	"i18n": true,
+	"type": "panel",
+	"items": {
+		"_info": {
+			"type": "header",
+			"text": "Salus IT500 Adapter Configuration",
+			"size": 3
+		},
+		"username": {
+			"type": "text",
+			"label": "Username/Email",
+			"newLine": true,
+			"xs": 12,
+			"sm": 12,
+			"md": 6,
+			"lg": 6,
+			"xl": 6
+		},
+		"password": {
+			"type": "password",
+			"label": "Password",
+			"newLine": true,
+			"xs": 12,
+			"sm": 12,
+			"md": 6,
+			"lg": 6,
+			"xl": 6
+		},
+		"pollInterval": {
+			"type": "number",
+			"label": "Poll interval (seconds)",
+			"min": 30,
+			"max": 3600,
+			"default": 60,
+			"newLine": true,
+			"xs": 12,
+			"sm": 12,
+			"md": 6,
+			"lg": 6,
+			"xl": 6,
+			"help": "How often to update device data (minimum 30 seconds)"
+		}
+	}
+}

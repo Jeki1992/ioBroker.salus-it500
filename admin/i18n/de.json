@@ -1,0 +1,8 @@
+{
+	"salus-it500 adapter settings": "Salus IT500 Adapter-Einstellungen",
+	"Salus IT500 Adapter Configuration": "Salus IT500 Adapter-Konfiguration",
+	"Username/Email": "Benutzername/E-Mail",
+	"Password": "Passwort",
+	"Poll interval (seconds)": "Abfrageintervall (Sekunden)",
+	"How often to update device data (minimum 30 seconds)": "Wie oft die Gerätedaten aktualisiert werden sollen (mindestens 30 Sekunden)"
+}
